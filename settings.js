@@ -19,32 +19,32 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['Your Number']
-global.premium = ['Your Number']
-global.ownernomer = 'Your Number'
-global.ownername = '🐦Star Boy Nexus'
-global.botname = 'Gojo-Satoru'
-global.footer = '©NexusNwInc.'
-global.ig = 'https://github.com/nexusNw'
-global.region = 'India, South India, Kerala'
-global.sc = 'https://github.com/nexusNw/Gojo-Satoru'
-global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
-global.packname = 'Gojo-Satoru'
-global.author = '🐦Star Boy Nexus'
+global.owner = ['94762593247']
+global.premium = ['94762593247']
+global.ownernomer = '94762593247'
+global.ownername = 'YASHAN SAMARANAYAKE'
+global.botname = '🔮//𝑀𝑅.𝑌𝛥𝑆𝐻 𝐵𝛩𝑇//🔮'
+global.footer = 'CREATED BY YASHAN.'
+global.ig = 'https://github.com/mryashK'
+global.region = 'Sri Lanka, Southern Province, Hambanthota'
+global.sc = 'https://github.com/mryashK'
+global.myweb = 'https://www.youtube.com/channel/UC_DLjCHzc5yPKcdVbsfYL7w'
+global.packname = '🔮//𝑀𝑅.𝑌𝛥𝑆𝐻 𝐵𝛩𝑇//🔮'
+global.author = 'YASHAN'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner!',
-    group: 'Feature Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This Feature Is Only For Bot',
-    wait: 'Wait A minute...',
+    success: '🔮Done ✓',
+    admin: 'මේ කමාන්ඩ් එක ඇඩ්මින්ලට විතරයි සගෝ🥲',
+    botAdmin: 'මාව ඇඩ්මින් කෙනෙක් කරන්න අයියෝ!..මාව ඇඩ්මින් කෙනෙක් කරන්න අයියෝ!..',
+    owner: 'බොට්ගෙ ඕව්නර්ට විතරයි මේ කමාන්ඩ් එක😕!',🥲
+    group: 'ගෲප් වලදි විතරයි වැඩ!',
+    private: 'ඉන්බොක්ස් චැට් වලදි විතරයි වැඩ!',
+    bot: 'මේ කමාන්ඩ් එක බොට් ට විතරයි',
+    wait: 'ටිකක් ඉන්ටකෝ 🥲...',
     error: 'Error! Maybe Api Key Is Expired🤔!',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
+    endLimit: 'ඔයාගෙ ඩේලි ලිමිට් එක පැනලා සගෝ..පැය 12කින් ලිමිට් එක රීසෙට් වෙනව එතකොට පුලුවන් ආයෙත් බොට්ගෙන් වැඩ කරන්න..',
 }
     global.limitawal = {
     premium: "Infinity",
