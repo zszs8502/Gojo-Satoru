@@ -8,14 +8,14 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-//Api Website\\
-global.APIs = {
-	zenz: 'https://zenzapis.xyz',
-}
+//global api
+global.fbapi = 'dd79-1aeb-21a3' // Facebook download 2 api
 
-//Api Key\\
+global.APIs = {
+	zenz: 'https://zenzapi.xyz', 
+}
 global.APIKeys = {
-	'https://zenzapis.xyz': 'sanzychan01', //credit goes to sanzy yt, if api key expire, buy it and put it here?\\
+	'https://zenzapi.xyz': '01ABEB1E11', //Kalau habis beli sendiri
 }
 
 //customize settings\\
