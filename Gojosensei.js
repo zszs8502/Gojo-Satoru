@@ -237,7 +237,7 @@ const reply = (teks) => {
 	    let setting = global.db.data.settings[botNumber]
 	    if (new Date() * 1 - setting.status > 1000) {
 		let uptime = await runtime(process.uptime())
-		await GojoMdNx.setStatus(`${GojoMdNx.user.name} | Runtime : ${runtime(uptime)}`)
+		await GojoMdNx.setStatus(`${GojoMdNx.user.name} | Runtime : ${runtime(process.uptime())}`)
 		setting.status = new Date() * 1
 	    }
 	}
@@ -3637,20 +3637,21 @@ break
             case 'list': case 'menu': {
             	timestampe = speed();
 latensie = speed() - timestampe
-                anu = `*┏━━━❬ᴠɪʜͥᴀɴͣɢͫᴀ ᴍᴅ🧚❭*
+                anu = `
+*┏━━━❬ᴠɪʜͥᴀɴͣɢͫᴀ ᴍᴅ🧚❭*
     
-                *Hello 👋..*
-             
-                    How Are You😼
-             
-             *┃Owner 🎩:* ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
-             
-             *┃Version 🧚:* 1.0.1
-             
-             *┃Runtime ⏳:* ${runtime(process.uptime())}
-             
-             *┃Whatsapp Group ✅ :* https://chat.whatsapp.com/FAoZjlZ1i7LBKY4EfsIorz
-             ┗━━━━━━━━━❊`
+*Hello 👋..*
+               
+     How Are You😼
+               
+*┃Owner 🎩:* ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ
+               
+*┃Version 🧚:* 1.0.1
+               
+*┃Runtime ⏳:* ${runtime(process.uptime())}
+               
+*┃Whatsapp Group ✅ :* https://chat.whatsapp.com/FAoZjlZ1i7LBKY4EfsIorz
+┗━━━━━━━━━❊`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
