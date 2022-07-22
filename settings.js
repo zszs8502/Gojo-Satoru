@@ -19,9 +19,9 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['94763427338']
-global.premium = ['94763427338']
-global.ownernomer = '94763427338'
+global.owner = ['919207856921']
+global.premium = ['919207856921']
+global.ownernomer = '919207856921'
 global.ownername = 'VIHANGA YT'
 global.botname = 'ᴠɪʜͥᴀɴͣɢͫᴀ ᴍᴅ'
 global.footer = 'ᴠɪʜͥᴀɴͣɢͫᴀ ᴍᴅ.'
